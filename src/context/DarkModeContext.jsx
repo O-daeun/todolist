@@ -26,11 +26,9 @@ function updateDarkMode(darkMode) {
   if (darkMode) {
     document.documentElement.classList.add('dark');
     localStorage.theme = 'dark';
-    console.log('ㅎㅇ');
   } else {
     document.documentElement.classList.remove('dark');
     localStorage.theme = 'light';
-    console.log('꽥');
   }
 }
 
