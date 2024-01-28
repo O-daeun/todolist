@@ -46,7 +46,7 @@ https://todolist-oh.netlify.app
 </table>
 <br />
 
-### 추가 및 삭제
+### 추가 및 체크, 삭제
 
 <table>
  <tr>
@@ -60,13 +60,20 @@ https://todolist-oh.netlify.app
   </td>
  </tr>
   <tr>
-  <td>
-   <img src="https://github.com/O-daeun/todolist/assets/105799083/a8b71396-06a9-4f0a-baa4-5e8fa9f34d0f" width="400" />
+  <td rowspan="2">
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/f1f6b3b9-5648-4468-8217-fa62f559f2de" width="400" />
   </td>
   <td>
    <h4>항목 삭제</h4>
    <p> - 리스트 항목의 우측 휴지통 아이콘을 클릭하면 <br />
      해당 항목이 삭제됨</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+   <h4>항목 체크</h4>
+   <p> - 리스트 항목의 좌측 체크박스를 클릭하면 <br />
+     해당 항목이 완료됨</p>
   </td>
  </tr>
 </table>
