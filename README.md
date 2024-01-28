@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# TodoList 프로젝트
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/O-daeun/todolist/assets/105799083/1c91ddc7-8112-4650-bb34-344a0569a3b1)
 
-## Available Scripts
 
-In the project directory, you can run:
+<br />
+<br />
 
-### `yarn start`
+## 🕰️ 개발 기간
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2023. 08
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔗 URL
 
-### `yarn test`
+https://todolist-oh.netlify.app
+<br />
+<br />
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ 개발 환경
 
-### `yarn build`
+- **React.js**
+- CSS: **PostCSS**
+- Deploy: **Netlify**
+- etc: **uuid**
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 주요 기능
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 다크모드 지원
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<table>
+ <tr>
+  <td>
+   <h4>라이트모드</h4>
+  <img src="https://github.com/O-daeun/todolist/assets/105799083/611f5402-595e-4834-ba11-6cb4aa91338f" width="400" />  
+  </td>
+  <td>
+   <h4>다크모드</h4>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/1c91ddc7-8112-4650-bb34-344a0569a3b1" width="405" />  
+  </td>
+ </tr>
+</table>
+<br />
 
-### `yarn eject`
+### 추가 및 삭제
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<table>
+ <tr>
+  <td>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/279e5b0f-2e11-4c94-9e26-6d0a636281b2" width="400" />
+  </td>
+  <td>
+   <h4>항목 추가</h4>
+   <p> - 하단 input에 Todo를 작성 후 Add 버튼을 클릭하면 <br />
+     리스트에 추가됨</p>
+  </td>
+ </tr>
+  <tr>
+  <td>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/a8b71396-06a9-4f0a-baa4-5e8fa9f34d0f" width="400" />
+  </td>
+  <td>
+   <h4>항목 삭제</h4>
+   <p> - 리스트 항목의 우측 휴지통 아이콘을 클릭하면 <br />
+     해당 항목이 삭제됨</p>
+  </td>
+ </tr>
+</table>
+<br />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 필터링
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<table>
+ <tr>
+  <td>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/61f2b735-746e-47c4-82bd-570a7bdcaab9" width="400" />
+  </td>
+   <td>
+     <h4>All</h4>
+     <p>- 모든 항목이 보여짐</p>
+   </td>
+</tr>
+<tr>
+  <td>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/49d607c0-f02f-4da3-86c4-8e75fdf61309" width="400" />
+  </td>
+  <td>
+     <h4>Active</h4>
+     <p>- 체크하지 않은 항목이 보여짐</p>
+   </td>
+</tr>
+  <tr>
+  <td>
+   <img src="https://github.com/O-daeun/todolist/assets/105799083/2f301263-4043-42e5-839d-9e903f50a17a" width="400" />
+  </td>
+  <td>
+     <h4>Active</h4>
+     <p>- 체크한 항목이 보여짐</p>
+   </td>
+</tr>
+</table>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br />
+<br />
